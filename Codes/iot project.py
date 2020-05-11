@@ -5,8 +5,10 @@ from pprint import pprint
 import serial
 
 
+
 ser1 = serial.Serial('COM6', 9600)
 while True:
+    
     scope = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
     code = str(ser1.read(8))
     
@@ -51,10 +53,12 @@ while True:
             n = input()
             sheet.update_cell(length + 2,2, n)
             print("Enter your passport number")
+            
             //print("Enter your passport number")
             //print("Enter your passport number")
             //print("Enter your passport number")
             p = input()
+            
             sheet.update_cell(length + 2,3, p)
             print("database updated successfully")
             print("")
