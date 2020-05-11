@@ -37,6 +37,9 @@ while True:
             break
     if count != 1:
         print('No such passport found')
+        print('No such passport found')
+        print('No such passport found')
+        print('No such passport found')
         count =0
         print ("Do you wnt to add new passport?? y/n")
         inp = input()
@@ -45,6 +48,9 @@ while True:
             print("Enter the name of the person")
             n = input()
             sheet.update_cell(length + 2,2, n)
+            print("Enter your passport number")
+            print("Enter your passport number")
+            print("Enter your passport number")
             print("Enter your passport number")
             p = input()
             sheet.update_cell(length + 2,3, p)
