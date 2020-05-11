@@ -1,2 +1,4 @@
+In order to work with google sheets you will have to download some  libraries for python.  
+
 pip install gspread oauth2client
 pip install pyserial 
